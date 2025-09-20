@@ -1,0 +1,217 @@
+.icon {
+  /* background-color: coral; */
+  width: 10%;
+  height: 50px;
+  padding: 10px;
+}
+
+.menu {
+  /* background-color: red; */
+  width: 70px;
+  height: 50px;
+}
+
+.search {
+  /* background-color: green; */
+  width: 20%;
+  height: 50px;
+  padding: 10px;
+}
+.navbar {
+  background: #ddb5b5;
+}
+/* Gradient background */
+.custom-navbar {
+  background: linear-gradient(90deg, #e1cfac, #beebc8) !important;
+}
+
+/* Text styling */
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: rgb(24, 19, 19) !important;
+}
+
+.navbar .nav-link:hover {
+  color: #383d62 !important;
+}
+
+.navbar .search input {
+  padding: 5px 12px;
+  width: 250px;
+  outline: none;
+  /* border: none; */
+  border-radius: 5px;
+}
+.navbar-brand img {
+  width: 30px !important;
+}
+
+.hero {
+  height: 40vh;
+  background: #8bc47e;
+  text-shadow: 20pc;
+  text-emphasis-color:pink ;
+
+}
+
+.category {
+  background: #d6b9b9;
+}
+
+.search-box {
+  padding: 5px 12px !important;
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+body {
+  margin: 4em;
+}
+
+.card {
+  text-align: center;
+  color: rgb(230, 24, 58);
+  border-radius: 20em 29em 00;
+  box-shadow: 0 0 10px teal;
+  border: 0;
+}
+.card img {
+  border-radius: 25000em 10000em 00;
+}
+.card-body {
+  /* background-color: blanchedalmond; */
+  border-color: cadetblue;
+  color: teal;
+  padding: .199em;
+  border-radius: 0;
+}
+.card.btn {
+  background-color: blanchedalmond;
+  border-color: cadetblue;
+  padding: .175em;
+  border-radius: 0;
+}
+.card.btn:hover {
+  background-color: lightgreen;
+  border-color: lightgreen;
+  padding: .751em;
+  border-radius: 0;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.card-img-top {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 16px auto 0;
+  display: block;
+}
+
+.card-container {
+  display: flex;
+  gap: 120px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* This applies to all h2 elements */
+h2 {
+  color: #073411; /* Green, change as needed */
+}
+
+.carousel-inner {
+    height: 500px; /* or whatever fixed height you want */
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 100%;
+    object-fit: cover; /* or 'contain' depending on what you prefer */
+  }
+.carousel-inner {
+  height: 80vh;
+}
+
+.card-row .col {
+  width: 230px;
+}
+
+.card-row .col .card {
+  padding: 10px;
+  /* text-align: left; */
+  height: 100%;
+}
+
+.card-row .col .card .info .heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-row .col .card .info .line {
+  line-height: 25px;
+}
+
+footer {
+  overflow: hidden;
+}
+
+.carousel-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-height: 500px;
+  /* Optional: limit height */
+  object-fit: contain;
+  /* Keeps aspect ratio */
+}
+.container{
+ padding-bottom: 80 !important;
+}
+.card {
+  margin-right: 10px;
+  margin-bottom: 20px; /* Or margin-bottom */
+}
+ .review {
+      background: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .review h4 {
+      margin: 0 0 5px;
+      font-size: 16px;
+      color: #d63384;
+    }
+
+    .stars {
+      color: #FFD700; /* Gold star color */
+      margin-bottom: 10px;
+    }
+
+    .review p {
+      margin: 0;
+      font-size: 15px;
+      color: #444;
+    }
+       footer {
+      margin-top: 60px;
+      text-align: center;
+      padding: 20px 10px;
+      background-color: #f8f0f8;
+      color: #555;
+      border-top: 1px solid #ddd;
+    }

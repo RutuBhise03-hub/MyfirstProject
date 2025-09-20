@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Reviews - Flower Bliss</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="f.css" />
+   <link rel="stylesheet" href="re.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light custom-navbar shadow-sm">
+    <div class="container">
+      <!-- Brand Logo -->
+      <a class="navbar-brand text-success fw-bold d-flex align-items-center" href="Index.html">
+        <img src="./img/logo.png" alt="Logo" width="40" height="40" class="me-2">
+        Flower Shop
+      </a>
+
+      <!-- Toggler Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible Content -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Navigation Links -->
+        <form class="d-flex ms-lg-3 mt-3 mt-lg-0" role="search">
+          <input class="form-control" type="search" placeholder="Search Here.." aria-label="Search">
+        </form>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="Index.html"><i class="bi bi-house-door-fill"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="shop.html"><i class="bi bi-shop"></i> Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Cfb.html"><i class="bi bi-telephone-fill"></i> customized flower bouquet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reviews.html"><i class="bi bi-chat-left-text-fill"></i> Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><i class="bi bi-box-arrow-in-right"></i> Login</a>
+          </li>
+        </ul>
+        <!-- Search Form (Right aligned) -->
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Reviews -->
+  <div class="container py-5">
+    <h2 class="text-center mb-4">Customer Reviews</h2>
+    <div class="row">
+      <!-- <div class="col-md-6">
+        <blockquote class="blockquote bg-light p-4 rounded shadow-sm">
+          <p>"Absolutely stunning bouquet! I ordered mixed flowers for my sister’s
+            birthday and they were even more beautiful than the pictures online. Fresh, vibrant, and smelled amazing!"
+          </p>
+          <footer class="blockquote-footer">— Maya L.</footer>
+        </blockquote>
+      </div> -->
+      <!-- <div class="col-md-6">
+        <blockquote class="blockquote bg-light p-4 rounded shadow-sm">
+          <p>The red roses I received for my anniversary were perfect — deep color,
+            large blooms, and they lasted over a week. Thank you for making our day extra special!"
+          </p>
+          <footer class="blockquote-footer">— David R.</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+  <div class="container py-5">
+
+    <div class="row">
+      <div class="col-md-6">
+        <blockquote class="blockquote bg-light p-4 rounded shadow-sm">
+          <p>"Hands down the best flower shop in town. I ordered a floral arrangement for
+            my mom’s retirement party and it was a showstopper. Everyone asked where it was from!"
+          </p>
+          <footer class="blockquote-footer">— Priya K.</footer>
+        </blockquote>
+      </div>
+      <div class="col-md-6">
+        <blockquote class="blockquote bg-light p-4 rounded shadow-sm">
+          <p>"Ordered a dozen white roses for a wedding proposal — and WOW.
+            Elegant, fresh, and beautifully wrapped. Couldn’t have asked for more!"
+          </p>
+          <footer class="blockquote-footer">— Jamal T.</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+  <div class="container py-5">
+
+    <div class="row">
+      <div class="col-md-6">
+        <blockquote class="blockquote bg-light p-4 rounded shadow-sm">
+          <p>"We’ve used [Your Flower Shop Name] for our corporate events,
+            and they never disappoint. The arrangements are classy, on time, and always match the theme perfectly."
+          </p>
+          <footer class="blockquote-footer">— Sarah M.</footer>
+        </blockquote>
+      </div>
+      <div class="col-md-6">
+        <blockquote class="blockquote bg-light p-4 rounded shadow-sm">
+          <p>"I sent roses to my grandmother for her birthday and she called
+            crying — happy tears! She said they were the most beautiful roses she’s ever received."
+          </p>
+          <footer class="blockquote-footer">— Carlos D.</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div> -->
+<!-- form for add review -->
+     <div class="review-form">
+      <h3>Leave a Review</h3>
+      <form id="reviewForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="rating">Rating:</label>
+        <select id="rating" required>
+          <option value="">--Select--</option>
+          <option value="★★★★★">5 Stars</option>
+          <option value="★★★★☆">4 Stars</option>
+          <option value="★★★☆☆">3 Stars</option>
+          <option value="★★☆☆☆">2 Stars</option>
+          <option value="★☆☆☆☆">1 Star</option>
+        </select>
+
+        <label for="message">Your Review:</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="submit">Submit Review</button>
+      </form>
+    </div>
+
+  </div>
+    <div class="reviews-section">
+<div class="review">
+    <h4>Maya L.</h4>
+    <div class="stars">★★★★★</div>
+    <p>Absolutely stunning bouquet! I ordered mixed flowers for my sister’s birthday and they were even more beautiful than the pictures online.</p>
+  </div>
+
+  <div class="review">
+    <h4>David R.</h4>
+    <div class="stars">★★★★★</div>
+    <p>The red roses I received for my anniversary were perfect — deep color, large blooms, and they lasted over a week.</p>
+  </div>
+
+  <div class="review">
+    <h4>Priya K.</h4>
+    <div class="stars">★★★★☆</div>
+    <p>Ordered flowers for my mom’s retirement party and it was a showstopper. One rose was slightly bruised, but everything else was perfect!</p>
+  </div>
+
+  <div class="review">
+    <h4>Jamal T.</h4>
+    <div class="stars">★★★★★</div>
+    <p>Ordered a dozen white roses for a proposal — elegant, fresh, and beautifully wrapped. Couldn’t have asked for more!</p>
+  </div>
+
+  </div>
+   
+  
+  
+  
+  
+  <!-- Footer -->
+
+  <footer class="bg-light py-5">
+    <div class="container">
+      <div class="row g-4">
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <h3>About Us</h3>
+          <p>we believe flowers speak the language of the heart.
+            Locally owned and passionately operated, we specialize in fresh, handcrafted floral arrangements for every
+            occasion.</p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <h3>Customer Service</h3>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none text-dark">Help Center</a></li>
+            <li><a href="#" class="text-decoration-none text-dark">Returns</a></li>
+            <li><a href="#" class="text-decoration-none text-dark">Shipping Info</a></li>
+            <li><a href="#" class="text-decoration-none text-dark">Order Tracking</a></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <h3>Contact</h3>
+          <ul class="list-unstyled">
+            <li>Email: support@FlowerShop.com</li>
+            <li>Phone: +91 98765 43210</li>
+            <li>Address: Pune, India</li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <h3>Follow Us</h3>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none text-dark">Facebook</a></li>
+            <li><a href="#" class="text-decoration-none text-dark">Instagram</a></li>
+            <li><a href="#" class="text-decoration-none text-dark">Twitter</a></li>
+            <li><a href="#" class="text-decoration-none text-dark">YouTube</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <hr class="my-4" />
+      <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2025 Flower Bliss. All rights reserved.</p>
+      </footer>
+      <div class="text-center text-muted">
+        <!-- <p>© 2025 ShopEase. All rights reserved.</p> -->
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
